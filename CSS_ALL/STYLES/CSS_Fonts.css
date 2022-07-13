@@ -1,0 +1,21 @@
+p {
+    /* text - allign Different Types*/
+    /*text-align: start; - The same as left if direction is left-to-right and right if direction is right-to-left.*/
+    /*text-align: end; - The same as right if direction is left-to-right and left if direction is right-to-left.*/
+    /*text-align: left; - The inline contents are aligned to the left edge of the line box.*/
+    /*text-align: right; - The inline contents are aligned to the right edge of the line box.*/
+    /*text-align: center; - The inline contents are centered within the line box.*/
+    /*text-align: justify; - The inline contents are justified. Text should be spaced to line up its left and right edges to the left and right edges of the line box, except for the last line. */
+    /*text-align: justify-all; - Same as justify, but also forces the last line to be justified.*/
+    /*text-align: match-parent; - Similar to inherit, but the values start and end are calculated according to the parent's direction and are replaced by the appropriate left or right value.*/
+    font-family: Georgia, serif;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration:  #f78120 underline wavy;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    line-height: 2;
+}

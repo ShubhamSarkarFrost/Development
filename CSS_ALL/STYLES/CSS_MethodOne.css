@@ -1,0 +1,19 @@
+h2 {
+    /* These are all Color Format's */
+    /*color: rebeccapurple;*/
+    /*color: #00(red)ff(green)00(blue);        ff - full 00 - none*/
+    /*color: rgb(214, 122, 127);*/
+    /*color: hsl(30, 100%, 50%);*/
+    /*color: hsla(30, 100%, 50%, .3);*/
+    color: hwb(1.5708rad 20% 10% / 0.7);
+
+}
+
+button {
+    background-color: green;
+}
+
+p {
+    background: #cc55ee;
+    color: aqua;
+}

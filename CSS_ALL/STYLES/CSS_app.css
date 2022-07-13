@@ -1,0 +1,103 @@
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1,h2 {
+    color: #1d3557;
+}
+
+/* ID Selector */
+#signup{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+span {
+    color: #457b9d;
+}
+
+/* CLASS SELECTOR  */
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* DESCENDENT SELECTOR */
+footer a {
+    color: #e63946;
+}
+
+/* ADJESCENT SELECTOR */
+h2 + button {
+    font-size: 20px;
+}
+
+/* DIRECT -DESCENDENT SELECTOR */
+footer > a {
+    color: #457b9d;
+}
+
+/* ATTRIBUTE SELECTOR */
+input[type="password"] {
+    color: greenyellow;
+}
+/* ATTRIBUTE SELECTOR */
+a[href*="google"]{
+    color: #1d3557;
+}
+
+/* PSEUDO CLASS */
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* PSEUDO CLASS */
+.post button:active {
+    background-color: #02c39a;
+}
+/* PSEUDO CLASS */
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
+}
+/* PSEUDO ELEMENTS */
+h2::first-letter {
+    font-size: 50px;
+}
+/* PSEUDO ELEMENTS */
+p::first-line {
+    color: purple;
+}
+/* PSEUDO ELEMENTS */
+p::selection {
+    background-color: #fcbf49;
+}
+
+/* CSS CASCADE */
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+button:hover {
+    background-color: olive;
+}
+
+button {
+    background-color: magenta !important;
+}
