@@ -1,0 +1,24 @@
+// const allImages = document.getElementsByTagName('img');
+//
+// for(let img of allImages){
+//     img.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Silky_bantam.jpg/440px-Silky_bantam.jpg';
+// }
+//
+// const squareimg = document.getElementsByClassName('square');
+// for(let img of squareimg){
+//     img.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Silky_bantam.jpg/440px-Silky_bantam.jpg'
+// }
+
+// const links = document.querySelectorAll('p a');
+//
+// for (let link of links) {
+//     console.log(link.href)
+// }
+
+const links = document.querySelectorAll('a');
+
+for (let link of links) {
+    link.style.color = 'rgb(0, 108, 134)';
+    link.style.textDecorationColor = 'magenta';
+    link.style.textDecorationStyle = 'wavy'
+}
